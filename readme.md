@@ -4,7 +4,7 @@
 -   [x] prod build
 -   [x] sass
 -   [x] es6
--   [ ] react
+-   [x] react
 -   [ ] lint
 -   [ ] tests
 
