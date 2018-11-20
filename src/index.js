@@ -1,3 +1,5 @@
-console.log('parcel works')
+const arrowFunc = (text) => text.toUpperCase();
 
-document.getElementsByTagName('h1')[0].textContent = 'yep'
+console.log(arrowFunc('parcel works'))
+
+document.getElementsByTagName('h1')[0].textContent = arrowFunc('yep')
