@@ -1,3 +1,22 @@
+# quickstart
+
+```sh
+npm install
+# start dev server
+npm start
+# production build
+npm run build
+```
+
+to start over try:
+```sh
+# remove temp and build files
+make clean
+# remove all, like a fresh checkout
+make distclean
+```
+
+
 # milestones
 
 -   [x] dev server (live reload, module replacement)
