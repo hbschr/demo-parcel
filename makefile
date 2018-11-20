@@ -1,6 +1,7 @@
 .PHONY: clean
 clean:
 	rm -rf .cache
+	rm -rf build
 	rm -rf dist
 
 .PHONY: distclean

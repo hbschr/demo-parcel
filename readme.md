@@ -1,7 +1,7 @@
 # milestones
 
 -   [x] dev server (live reload, module replacement)
--   [ ] prod build
+-   [x] prod build
 -   [ ] sass
 -   [x] es6
 -   [ ] react
@@ -11,6 +11,8 @@
 
 # notes / steps
 
+## dev server
+
 `npm install -g parcel-bundler`
 
 out of the box dev server w/ live reload:
@@ -19,3 +21,9 @@ out of the box dev server w/ live reload:
 -   no auto open in browser, append `--open` to cmd line
 -   hot module replacement
 -   babel, out of the box!!1!
+
+## prod build
+
+`parcel build src/index.html`
+-   compilat goes to `./dist`, configure w/ `--out-dir`
+-   includes js file w/ absolute url, configure w/ `--public-url`
