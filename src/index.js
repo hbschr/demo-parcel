@@ -1,3 +1,5 @@
+import './style.scss'
+
 const arrowFunc = (text) => text.toUpperCase();
 
 console.log(arrowFunc('parcel works'))

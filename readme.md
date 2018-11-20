@@ -2,7 +2,7 @@
 
 -   [x] dev server (live reload, module replacement)
 -   [x] prod build
--   [ ] sass
+-   [x] sass
 -   [x] es6
 -   [ ] react
 -   [ ] lint
